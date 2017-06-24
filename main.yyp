@@ -50,7 +50,7 @@
             "Key": "1b8bcff7-92b7-4edf-a377-3d64d2237810",
             "Value": {
                 "id": "1d6e85f1-7a30-46b5-aa68-cf3b2f91032d",
-                "resourcePath": "sprites\\sprPlayer\\sprPlayer.yy",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +146,7 @@
             "Key": "aecb50b9-4507-4355-a56f-e65564bdbf1b",
             "Value": {
                 "id": "9fd141d0-f425-4e64-b043-ebd4685e46cd",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rmOne\\rmOne.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -180,6 +180,14 @@
                 "id": "493aac59-0e29-4d7b-8939-c2d9804a445e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccbc859e-a6c2-4f3f-b72f-7744adb49978",
+            "Value": {
+                "id": "0e1a6b9d-bcb8-48f6-b375-8c16879a3ec3",
+                "resourcePath": "sprites\\spr_player_squish\\spr_player_squish.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

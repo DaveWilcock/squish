@@ -1,8 +1,18 @@
 /// @description Sets up some globals
 // You can write your code in this editor
 
-fltHorizontalSpeed = 0;
-fltVerticalSpeed = 0;
-fltWalkSpeed = 4;
-fltGravity = 0.6;
-fltDefaultJumpHeight = 6;
+max_hspeed_ = 6;
+hspeed_ = 0;
+h_sneak_modifier = 0.3;
+vspeed_ = 0;
+gravity_ = 0.6;
+jump_height_ = -10;
+acceleration_ = 1;
+friction_ = 0.3;
+wall_jump_height_modifier_ = 0.8;
+wall_jump_rebound_ = 18;
+
+keyboard_set_map(ord("W"), vk_up);
+keyboard_set_map(ord("A"), vk_left);
+keyboard_set_map(ord("S"), vk_down);
+keyboard_set_map(ord("D"), vk_right);
